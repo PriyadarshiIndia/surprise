@@ -115,7 +115,7 @@ export default function PinUnlock({ onComplete }: PinUnlockProps) {
         {showHint && (
           <div className="mb-6 p-4 bg-gradient-to-r from-primary/20 to-pink-400/20 rounded-lg border border-primary/50">
             <p className="text-sm text-muted-foreground italic">
-              Hint: Think of the year we met
+              Hint: Most special year of our journey together..!!
             </p>
           </div>
         )}
