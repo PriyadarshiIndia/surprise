@@ -54,8 +54,13 @@ export default function PinUnlock({ onComplete }: PinUnlockProps) {
         <div className="text-center max-w-md mx-auto">
           <div className="mb-8">
             <div className="mx-auto w-24 h-24 rounded-full bg-gradient-to-br from-primary to-pink-400 flex items-center justify-center shadow-2xl animate-bounce">
-              <Gift className="h-12 w-12 text-white fill-white" />
-            </div>
+            <img
+              src="/https://cdn.worldvectorlogo.com/logos/myntra-2.svg"
+              alt="Myntra Logo"
+              className="h-12 w-12 object-contain"
+            />
+          </div>
+
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary via-pink-400 to-primary bg-clip-text text-transparent">
@@ -63,7 +68,7 @@ export default function PinUnlock({ onComplete }: PinUnlockProps) {
           </h2>
 
           <p className="text-lg text-muted-foreground mb-8">
-            Your Myntra Gift Card has been unlocked!
+            Ese Sukha Sukha wish krna acha nhi lag rha tha!! 😆
           </p>
 
           <div className="bg-gradient-to-br from-primary/20 to-pink-400/20 rounded-2xl p-8 mb-8 border-2 border-primary">
