@@ -6,6 +6,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+    turbopack: {
+    root: './surprise', // or whatever your project folder is
+  },
 }
+
+
 
 export default nextConfig
