@@ -154,7 +154,7 @@ export default function MemoryUnlock({ unlockedCount, onUnlock, onComplete }: Me
               onClick={onComplete}
               className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-semibold text-primary-foreground transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(232,74,111,0.5)]"
             >
-              See the Final Surprise
+              Next Surprise
               <Heart className="h-5 w-5 fill-current" />
             </button>
           </div>

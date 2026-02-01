@@ -8,13 +8,13 @@ interface LoveLetterTypingProps {
 }
 
 const letterLines = [
-  "My Dearest Love,",
+  "My Dearest Bubuu,",
   "",
   "Every moment with you feels like a beautiful dream",
   "I never want to wake up from.",
   "",
-  "From the first time our eyes met,",
-  "I knew my life would never be the same.",
+  "From the first time we met,",
+  "I never want to let you go.",
   "",
   "You are my sunshine on cloudy days,",
   "my comfort in times of trouble,",
@@ -23,9 +23,9 @@ const letterLines = [
   "Your smile lights up my world,",
   "and your love makes every day worth living.",
   "",
-  "Thank you for choosing me,",
-  "for loving me unconditionally,",
-  "and for being my partner in this beautiful journey.",
+  "Thank you for giving me your heart,",
+  "I'll make sure to cherish it always,",
+  "I promise to stand by your side, and give you all my love.",
   "",
   "Forever Yours,",
   "With All My Love",
@@ -135,7 +135,7 @@ export default function LoveLetterTyping({ onComplete }: LoveLetterTypingProps) 
               onClick={onComplete}
               className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-lg font-semibold text-primary-foreground transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(232,74,111,0.5)] animate-bounce-in"
             >
-              Discover More Surprises
+              Let's See What's Next
               <Heart className="h-5 w-5 fill-current" />
             </button>
           </div>

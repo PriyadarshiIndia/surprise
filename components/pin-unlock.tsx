@@ -53,7 +53,7 @@ export default function PinUnlock({ onComplete }: PinUnlockProps) {
       <div className="w-full flex items-center justify-center px-4 py-12">
         <div className="text-center max-w-md mx-auto">
           <div className="mb-8">
-            <div className="mx-auto w-24 h-24 rounded-full bg-gradient-to-br from-primary to-white flex items-center justify-center shadow-2xl animate-bounce">
+            <div className="mx-auto w-24 h-24 rounded-full bg-white flex items-center justify-center shadow-2xl animate-bounce">
             <img
               src="https://i.pinimg.com/736x/68/6d/c5/686dc532a1d5ba6a70057b87815eb929.jpg"
               alt="Myntra Logo"
@@ -64,7 +64,7 @@ export default function PinUnlock({ onComplete }: PinUnlockProps) {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary via-pink-400 to-primary bg-clip-text text-transparent">
-            Gift Unlocked!
+            Yayyyyyy...!!! Gift Unlocked!
           </h2>
 
           <p className="text-lg text-muted-foreground mb-8">
