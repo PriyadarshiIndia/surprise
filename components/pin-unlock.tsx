@@ -55,7 +55,7 @@ export default function PinUnlock({ onComplete }: PinUnlockProps) {
           <div className="mb-8">
             <div className="mx-auto w-24 h-24 rounded-full bg-white flex items-center justify-center shadow-2xl animate-bounce">
             <img
-              src="https://i.pinimg.com/736x/68/6d/c5/686dc532a1d5ba6a70057b87815eb929.jpg"
+              src="/myntra.jpg"
               alt="Myntra Logo"
               className="h-16 w-16 object-contain"
             />
